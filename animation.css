@@ -1,0 +1,505 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:  #ffd700;
+}
+
+#home_nav1 {
+  padding: 5%;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#home_line {
+  border: 0;
+  width: 675px;
+  height: 3px;
+  background: black;
+  margin-top: 2.5%;
+}
+
+div.home_nav1 {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  margin-top: 3%;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewY(-8deg);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: #b53737;
+  box-shadow: 0 0 0 15px white;
+  overflow: hidden;
+}
+
+.index_text {
+  line-height: 150%;
+}
+
+li {
+  display: block;
+  list-style: none;
+  color: white;
+  padding: 0 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate
+{
+  0%
+  {transform: translateY(-100px) rotateY(0deg);}
+
+  20%
+  {transform: translateY(0px) rotateY(360deg);}
+
+  40%
+  {transform: translateY(-10px) rotateY(360deg);}
+
+  50%
+  {transform: translateY(0px) rotateY(360deg);}
+
+  50%
+  {transform: translateY(0px) rotateY(360deg);}
+
+  60%
+  {transform: translateY(-10px) rotateY(360deg);}
+
+  70%
+  {transform: translateY(0px) rotateY(360deg);}
+
+  80%
+  {transform: translateY(0px) rotateY(360deg);}
+
+  100%
+  {transform: translateY(100px) rotateY(720deg);}
+}
+
+li:nth-child(1)
+{
+  animation-delay: .1s;
+}
+
+li:nth-child(2)
+{
+  animation-delay: .2s;
+}
+
+li:nth-child(3)
+{
+  animation-delay: .3s;
+}
+
+li:nth-child(4)
+{
+  animation-delay: .4s;
+}
+
+li:nth-child(5)
+{
+  animation-delay: .5s;
+}
+
+li:nth-child(6)
+{
+  animation-delay: .6s;
+}
+
+li:nth-child(7)
+{
+  animation-delay: .7s;
+}
+
+li:nth-child(8)
+{
+  animation-delay: .8s;
+}
+
+li:nth-child(9)
+{
+  animation-delay: .9s;
+}
+
+li:nth-child(10)
+{
+  animation-delay: 1s;
+}
+
+/* /////// VERSE 1 PAGE /////// */
+
+.v1_div {
+  overflow: hidden;
+}
+
+#bones {
+  padding: 5.5%;
+}
+
+.p_v1 {
+  padding-top: 1%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.9em;
+  line-height: 1.8em;
+}
+
+#brthng {
+  padding: 10%;
+}
+
+.bones {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(-5%, -800px);
+  transition: all 1.2s ease-out;
+  /* animation-delay: 3s; */
+}
+
+.v1_div:hover>.bones {
+  transform: translate(-5%, -236px);
+}
+
+.brthng {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(355px, 800px);
+  transition: all 1.1s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.v1_div:hover>.brthng {
+  transform: translate(355px, -139px);
+  overflow: hidden;
+}
+
+.lung {
+  height: 15%;
+  width: 15%;
+  margin: auto;
+  transform: translate(-100%, -95%);
+  transition: all 1.3s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.v1_div:hover>.lung {
+  transform: translate(280%, -95%);
+}
+
+/* ///////// CHORUS PAGE ///////// */
+
+.ch_div {
+  overflow: hidden;
+}
+
+#fine {
+  padding: 9.2%;
+}
+
+.p_ch {
+  padding-top: 1%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.9em;
+  line-height: 1.8em;
+}
+
+#mntns {
+  padding: 8%;
+}
+
+.fine {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(10%, -800px);
+  transition: all 1.2s ease-out;
+  /* animation-delay: 3s; */
+}
+
+.ch_div:hover>.fine {
+  transform: translate(10%, -345px);
+}
+
+.mntns {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(-300%, -355px);
+  transition: all 1.1s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.ch_div:hover>.mntns {
+  transform: translate(-.9%, -355px);
+  overflow: hidden;
+}
+
+#makedo {
+  padding: 5%;
+}
+
+.makedo {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(500%, -206px);
+  transition: all 1.1s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.ch_div:hover>.makedo {
+  transform: translate(21.5%, -206px);
+  overflow: hidden;
+}
+
+.mntn_img {
+  height: 15%;
+  width: 15%;
+  margin: auto;
+  transform: translate(-100%, -150%);
+  transition: all 1.3s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.ch_div:hover>.mntn_img {
+  transform: translate(280%, -150%);
+}
+
+/* ////////// VERSE 2 /////////// */
+
+.v2_div {
+  overflow: hidden;
+}
+
+#dead {
+  padding: 3%;
+}
+
+.p_v2 {
+  padding-top: 1%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.9em;
+  line-height: 1.8em;
+}
+
+#meaning {
+  padding: 5.5%;
+}
+
+.dead {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(19.5%, -800px);
+  transition: all 1.2s ease-out;
+  /* animation-delay: 3s; */
+}
+
+.v2_div:hover>.dead {
+  transform: translate(19.5%, -345px);
+}
+
+.meaning {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(500%, -301.5px);
+  transition: all 1.1s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.v2_div:hover>.meaning {
+  transform: translate(14.5%, -301.5px);
+  overflow: hidden;
+}
+
+#demons {
+  padding: 18%;
+}
+
+.demons {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(-500%, -261.5px);
+  transition: all 1.1s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.v2_div:hover>.demons {
+  transform: translate(15%, -261.5px);
+  overflow: hidden;
+}
+
+.demon_img {
+  height: 15%;
+  width: 15%;
+  margin: auto;
+  transform: translate(290%, 500px);
+  transition: all 1.5s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.v2_div:hover>.demon_img {
+  transform: translate(290%, -200px);
+}
+
+/* //////////BRIDGE////////// */
+
+.br_div {
+  overflow: hidden;
+}
+
+#go {
+  padding: 3.5%;
+}
+
+.p_br {
+  padding-top: 1%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.9em;
+  line-height: 1.8em;
+}
+
+#hope {
+  padding: 12%;
+}
+
+.go {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(7.5%, -800px);
+  transition: all 1.2s ease-out;
+  /* animation-delay: 3s; */
+}
+
+.br_div:hover>.go {
+  transform: translate(7.5%, -236px);
+}
+
+.hope {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(500%, -194px);
+  transition: all 1.1s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.br_div:hover>.hope {
+  transform: translate(24%, -194px);
+  overflow: hidden;
+}
+
+#better {
+  padding: 9%;
+}
+
+.better {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b53737;
+  font-size: 1.9em;
+  transform: translate(-500%, -206px);
+  transition: all 1.1s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.br_div:hover>.better {
+  transform: translate(22.5%, -206px);
+  overflow: hidden;
+}
+
+.hope_img {
+  height: 8%;
+  width: 8%;
+  margin: auto;
+  transform: translate(580%, 500px);
+  transition: all 1.5s ease-out;
+  /* animation-delay: 3s; */
+
+}
+
+.br_div:hover>.hope_img {
+  transform: translate(580%, -200px);
+}

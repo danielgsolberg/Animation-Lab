@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hamburger Sprite Sheet</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style media="screen">
+
+    body {
+      background-color:  #ffd700;
+    }
+
+    #home_nav1 {
+      padding: 5%;
+      display: inline;
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      color: black;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    #home_line {
+      border: 0;
+      width: 675px;
+      height: 3px;
+      background: black;
+      margin-top: 2.5%;
+    }
+
+    div.home_nav1 {
+      text-align: center;
+      width: 800px;
+      margin: auto;
+      margin-top: 3%;
+    }
+
+    .stage {
+      margin-top: 3%;
+      margin-left: 15%;
+      height: 1000px;
+      width: 900px;
+      background-image: url(HamburgerSprite.jpg);
+      background-position: 3250px;
+      animation: play 1s steps(8) infinite;
+    }
+
+    @keyframes play {
+      from {background-image: 0;}
+      to {background-position: -6000px;}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home_nav1">
+      <a id="home_nav1" href="index.html"><i class="fas fa-home"></i></a>
+      <a id="home_nav1" href="v1.html" >v1</a>
+      <a id="home_nav1" href="ch.html">ch</a>
+      <a id="home_nav1" href="v2.html">v2</a>
+      <a id="home_nav1" href="br.html">br</a>
+      <a id="home_nav1" href="hamburger.html">sprite</a>
+    </div>
+    <hr id="home_line">
+    <div class="stage">
+    </div>
+  </body>
+</html>
